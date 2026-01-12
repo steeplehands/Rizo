@@ -70,7 +70,8 @@ main {
   text-transform: uppercase;
   background: linear-gradient(120deg, var(--primary), var(--secondary), var(--accent));
   -webkit-background-clip: text;
-  color: transparent;
+  color: var(--primary);
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
