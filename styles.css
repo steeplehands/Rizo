@@ -380,7 +380,8 @@ section {
 
 @media (max-width: 860px) {
   .nav-links {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .hero {
@@ -390,6 +391,7 @@ section {
 
 @media (max-width: 600px) {
   .nav {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
